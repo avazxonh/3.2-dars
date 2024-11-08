@@ -1,0 +1,86 @@
+/* figtree-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/figtree-v6-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v6-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+.card {
+  width: 384px;
+  height: 522px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px #000000;
+  border: 1px solid #111;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+.card__img {
+  padding: 24px;
+}
+.card__link {
+  width: 82px;
+  background-color: #f4d04e;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+  color: black;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+.card__time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Figtree";
+  font-style: normal;
+  padding-left: 24px;
+}
+.card__heading {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  padding-left: 24px;
+}
+.card__paragraph {
+  color: #7f7f7f;
+  width: 336px;
+  padding-left: 24px;
+}
+.card__ {
+  display: flex;
+  padding-left: 24px;
+  gap: 12px;
+}
+
