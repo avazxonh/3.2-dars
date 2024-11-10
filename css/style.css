@@ -47,15 +47,18 @@ body {
   background-color: #f4d04e;
   text-decoration: none;
   text-align: center;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 21px;
   color: black;
   font-family: "Figtree";
   font-style: normal;
   font-weight: 800;
   margin-left: 24px;
   margin-bottom: 12px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #f4d04e;
+    background-color: #7f7f7f;
+  }
 }
 .card__time {
   font-weight: 500;
@@ -64,6 +67,11 @@ body {
   font-family: "Figtree";
   font-style: normal;
   padding-left: 24px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #f4d04e;
+  }
 }
 .card__heading {
   font-family: "Figtree";
@@ -72,15 +80,32 @@ body {
   font-size: 24px;
   line-height: 36px;
   padding-left: 24px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #f4d04e;
+  }
 }
 .card__paragraph {
   color: #7f7f7f;
   width: 336px;
   padding-left: 24px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #f4d04e;
+  }
 }
 .card__ {
   display: flex;
   padding-left: 24px;
   gap: 12px;
-}
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  transition: 0.3s ease-in-out;
 
+  &:hover {
+    color: #f4d04e;
+  }
+}
