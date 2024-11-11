@@ -28,6 +28,8 @@ body {
 }
 
 .card {
+  margin-top: 218px;
+  margin-bottom: 219px;
   width: 384px;
   height: 522px;
   background-color: white;
