@@ -11,6 +11,10 @@ const img2 = document.createElement("img");
 img2.src = "./images/userpic.svg";
 const h3 = document.createElement("h3");
 
+body.appendChild(card);
+card.append(img, a, time, h1, p, card__);
+card__.append(img2, h3);
+
 card.classList.add("card");
 img.classList.add("card__img");
 a.classList.add("card__link");
